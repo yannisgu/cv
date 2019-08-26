@@ -11,14 +11,14 @@ const Projects = () => {
         technologies="Sitecore (.NET, C#), Estatico (HTML, CSS, Handlebars, JavaScript) and Preact"
         employer="Unic AG"
       >
-        As technical respsonsible I was in the lead of implementing a redesign
-        of the portal of the Swiss Post with a team of ca. 10 developers. My
-        main responsibilities were the specification of the requirements, the
-        management of stakeholders, planing the sprints, leading the overall
-        architecure process, as well as reviewing the code. The Post portal is
-        the main information source for clients of the Swiss Post, by covering
-        the vast portfolio of services the Swiss Post offers. Also the Portal
-        provides navigation elements for all online applications of Swiss Post.
+        As technical responsible I was in the lead of a project with ca. 10 developers. The goal of the project was implementing a redesign
+        of the portal of Swiss Post. My
+        main responsibilities were: specification of the requirements,
+        management and contact with the stakeholders, sprints planning, leading the overall
+        architecture process, as well as reviewing the code. The Portal is
+        a main information source for clients of Swiss Post, as it covers
+        a vast portfolio of services the Swiss Post offers. The Portal also
+        provides navigation script for all online applications of Swiss Post.
       </Project>
       <Project
         title="Post Microsites"
@@ -27,11 +27,11 @@ const Projects = () => {
         technologies="Sitecore (.NET, C#), Estatico (Handlebars, SCSS, JavaScript)"
         employer="Unic AG"
       >
-        I shaped the microsites framework of the Swiss Post significantly, being
-        a developer since the begining. The framework allows the Swiss Post to
-        launch new Microsites in no time, without losing the flexibility to give
-        an own character to every Microsite. From 2017 till 2018 I was technical
-        responsible of the product, leading a team of 3-5 developers.
+        I shaped a "microsites" framework of Swiss Post significantly, being
+        it's developer since the beginning. The framework allows Swiss Post to
+        launch new small sites in no time, without losing the flexibility to give
+        an own character to every so called "Microsite". From 2017 till 2018 I was a technical
+        responsible person of the product, leading a team of 3-5 developers.
       </Project>
       <Project
         title="Release Management Post Portal"
@@ -41,10 +41,10 @@ const Projects = () => {
         employer="Unic AG"
       >
         Being the main information platform of Swiss Post, the portal of Swiss
-        Post needs continous improvement. Since 2016 I worked on the release
-        management of the portal as developer. In early 2017 I became technical
-        responsible for Marketing Automation and Analytics topics, before I
-        eventualy became technical reponsible of the whole platform.
+        Post needs continous improvements. Since 2016 I worked on the release
+        management of the portal as a developer. In early 2017 I became a technical
+        responsible person for topics of Marketing Automation and Analytics, before I
+        eventually became technical reponsible of the whole platform.
       </Project>
       <Project
         title="Orienteering Live-Results"
@@ -54,7 +54,7 @@ const Projects = () => {
         employer="Self-Employed / ResultService GmbH"
       >
         For the timekeeping company «Results-Service GmbH» I desinged and
-        developed a new frontend for orienteering Live-Results. The live-results
+        developed a new frontend for orienteering Live-Results website. The Live-Results
         have since then been used at the Junior World Championships and the
         European Championships, as well as couple other internation Orienteering
         races.
@@ -65,9 +65,9 @@ const Projects = () => {
         technologies="CasparCG, React, Angular, SVG"
         employer="Self-Employed / Livemotion GmbH"
       >
-        For the small TV production company Livemotion I developed a system to
-        show split-times graphics in TV productions in real-time. Via the
-        controller UI the graphic operator is able to control which graphic
+        For a small TV production company Livemotion I developed a system to
+        show split-times graphics in TV productions in real-time. Via a
+        controller UI graphics operator is able to control which graphic
         should be shown in real-time.
       </Project>
       <Project
@@ -77,13 +77,13 @@ const Projects = () => {
         employer="Swiss Orienteering"
         link="https://www.t-pak.ch/"
       >
-        T-Pak is the online training diary for all Swiss orienteers. It was
-        built in 2003 and has since then collected a big amount of technical
-        debts. I was then asked to work on the second and last attempt to
+        T-Pak is an online training diary for all Swiss orienteers. It was
+        built in 2003 in PHP and has since then collected a big amount of technical
+        debts. I was asked to work on the second and last attempt to
         rebuild this complex application, keeping the old database, but
-        rewriting the code from skratch in a team of 2 developers. I had a core
-        part in the conception, implemeneted the analysis part, was responsible
-        infrastructure and reviewed the code my fellow developer wrote.
+        rewriting the code from scratch. I had a core
+        part in the conception process, implemeneted the analysis part and was responsible for the
+        infrastructure. I also reviewed the code of my co-developer.
       </Project>
     </>
   )
