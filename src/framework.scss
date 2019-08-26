@@ -1,0 +1,27 @@
+@function pow($base, $exponents) {
+  $raised: 1;
+
+  @if ($exponents > 0) {
+    @for $i from 1 through $exponents {
+      $raised: $raised * $base;
+    }
+  }
+  @if($exponents < 0) {
+    @for $i from 1 through ($exponents * -1) {
+      $raised: $raised / $base;
+    }
+  }
+
+  @return $raised;
+}
+
+@function spacing($number) {
+  @if ($number == 0) {
+    @return $baseSpace;
+  }
+  @return pow($ratio, $number) * $baseSpace;
+}
+
+$ratio: 1.5;
+
+$baseSpace: 1rem;
