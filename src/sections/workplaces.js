@@ -11,14 +11,14 @@ const Workplaces = () => {
       >
         <ul>
           <li>
-            Technical responsible of Sitecore projects and Release Management
+            Technical responsible person for Sitecore projects and Release Management
           </li>
           <li>Development of Sitecore solutions</li>
           <li>
-            Assisting the project manager in planing as well as offer writing
+            Assisting project manager in planning as well as offer writing
           </li>
           <li>
-            Qualification of job applications, executing recruiting interviews,
+            Assessment of job applications, executing recruiting interviews, with having a
             functional employment decision
           </li>
         </ul>
@@ -29,7 +29,7 @@ const Workplaces = () => {
         timeframe="2016 - present"
       >
         <ul>
-          <li>Development of the training diary T-Pak</li>
+          <li>Development of a training diary platform called T-Pak</li>
         </ul>
       </Workplace>
       <Workplace
@@ -53,12 +53,12 @@ const Workplaces = () => {
       >
         <ul>
           <li>
-            Development of PowerShell tools for automated build, testing and
+            Development of PowerShell tools for automated build process, testing and
             deployment of Sitecore solutions
           </li>
           <li>
             Configuration, troubleshooting and testing of TeamCity build
-            pipeline
+            pipelines
           </li>
           <li>
             Configuration, troubleshooting and testing of Octopus Deploy
@@ -67,13 +67,13 @@ const Workplaces = () => {
         </ul>
       </Workplace>
       <Workplace
-        title="Apprentice informatics"
+        title="Apprentice in informatics"
         company="Unic AG"
         timeframe="08.2010 - 07.2014"
       >
         <ul>
           <li>
-            Applied learning the basics of all professional Software Development
+            Applied learning of all professional Software Development
             aspects, as well as the basics of project management
           </li>
           <li>Development of SharePoint customizations</li>
