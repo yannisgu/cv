@@ -11,14 +11,14 @@ const Workplaces = () => {
       >
         <ul>
           <li>
-            Technical responsible person for Sitecore projects and Release Management
+            Technical responsibility for Sitecore projects and release management
           </li>
           <li>Development of Sitecore solutions</li>
           <li>
-            Assisting project manager in planning as well as offer writing
+            Assistance to project manager in planning as well as offer writing
           </li>
           <li>
-            Assessment of job applications, executing recruiting interviews, with having a
+            Assessment of job applications, execution of recruiting interviews, with having a
             functional employment decision
           </li>
         </ul>
@@ -38,12 +38,12 @@ const Workplaces = () => {
         timeframe="09.2015 - 03.2016"
       >
         <ul>
-          <li>Day responsible for a second-hand shop</li>
+          <li>Day responsibility for a second-hand shop</li>
           <li>
             Support and supervision of co-workers doing a professional
             reintegration
           </li>
-          <li>Shop assistant work and sorting of donations</li>
+          <li>Assistance in the shop and sorting of donations</li>
         </ul>
       </Workplace>
       <Workplace
@@ -53,7 +53,7 @@ const Workplaces = () => {
       >
         <ul>
           <li>
-            Development of PowerShell tools for automated build process, testing and
+            Development of PowerShell tools for processes of automated building, testing and
             deployment of Sitecore solutions
           </li>
           <li>
