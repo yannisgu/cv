@@ -1,0 +1,43 @@
+@import "../framework.scss";
+
+.workplace {
+  display: flex;
+  &__illustration {
+    display: flex;
+    flex-direction: column;
+    width: spacing(2);
+    margin-right: spacing(-3);
+  }
+
+  &__line {
+    width: 4px;
+    background-color: $primaryColor;
+    margin: auto;
+    flex: 1;
+  }
+
+  &__circle {
+    fill: $primaryColor;
+  }
+
+  &__content {
+    display: flex;
+  }
+
+  &__timeframe {
+    margin-top: 0.5rem;
+    width: 150px;
+  }
+
+  &__description {
+    margin-top: 0.4rem;
+
+    ul {
+      padding: spacing(0);
+    }
+  }
+
+  &__title {
+    margin-top: 0;
+  }
+}
