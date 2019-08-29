@@ -5,6 +5,7 @@
   &__illustration {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     width: spacing(2);
     margin-right: spacing(-3);
   }
@@ -22,11 +23,16 @@
 
   &__content {
     display: flex;
+
+    @media all and (max-width: $breakpointSmall) {
+      display: block;
+    }
   }
 
   &__timeframe {
     margin-top: 0.5rem;
     width: 150px;
+    flex-shrink: 0;
   }
 
   &__description {

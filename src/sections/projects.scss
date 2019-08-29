@@ -1,20 +1,15 @@
 @import '../framework.scss';
 
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
+  display: grid;
+  grid-gap: spacing(2);
+  grid-template-columns: repeat(3, 1fr);
 
-  & > * {
-    width: calc(33% - #{2 * spacing(2)});
-    
-    @media all and (max-width: $breakpointMedium) {
-      width: calc(50% - #{spacing(2)});
-    }
+  @media all and (max-width: $breakpointMedium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    @media all and (max-width: $breakpointSmall) {
-      width: 100%;
-    }
+  @media all and (max-width: $breakpointSmall) {
+    display: block;
   }
 }

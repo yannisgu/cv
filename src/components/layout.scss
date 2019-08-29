@@ -39,6 +39,7 @@ h2 {
   display: flex;
   > :nth-child(1) {
     flex: 2;
+    padding-right: spacing(0);
   }
   > :nth-child(2) {
     flex: 1;
@@ -46,6 +47,9 @@ h2 {
 
   @media all and (max-width: $breakpointSmall) {
     flex-direction: column;
+    > :nth-child(1) {
+      padding-right: 0;
+    }
   }
 }
 
@@ -60,7 +64,8 @@ h2 {
 }
 
 footer {
-  margin-top: spacing(3);
+  margin-top: spacing(2);
+  margin-bottom: spacing(2);
 }
 
 a {
