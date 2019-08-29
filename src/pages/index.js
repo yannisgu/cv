@@ -145,7 +145,7 @@ const sections = [
         <div>
           <h3>Interests</h3>
           <ul>
-            <li>Endurance sport like orienteering, running and biking</li>
+            <li>Endurance sports like orienteering, running and biking</li>
             <li>Hiking & skiing</li>
             <li>Timekeeping and website development</li>
             <li>Technology and development practices</li>
@@ -155,10 +155,10 @@ const sections = [
           <h3>Involvements</h3>
           <ul>
             <li>
-              Member of organisation comitee of the running race "La Tzampata"
+              Member of organisation comitee of stairs-running race "La Tzampata"
             </li>
-            <li>Member of the comitee of the orienteering club "OLG Murten"</li>
-            <li>Coach of the regional squad in orienteering "Cadre Romand"</li>
+            <li>Member of comitee of orienteering club "OLG Murten"</li>
+            <li>Coach of regional squad in orienteering "Cadre Romand"</li>
           </ul>
         </div>
       </div>
@@ -191,8 +191,8 @@ const IndexPage = () => {
           <h1>Yannis Güdel, Developer</h1>
           <p>
             As a developer I always aim to make people's lifes easier. After
-            having spent most of my work experience caring about the backend of
-            websites, I now look forward to make the next generation of web UIs
+            having spent most of my work experience caring about backend of
+            websites, I now look forward to create the next generation of web UIs
             enjoyable to use, fast and accessible.
           </p>
 
