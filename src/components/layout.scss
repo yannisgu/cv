@@ -18,9 +18,14 @@ body {
 .mainContent {
   margin-left: spacing(3);
   margin-right: spacing(3);
+  max-width: $maxWidth;
 
-  @media all and (max-width: 480px) {
+  @media all and (max-width: $breakpointSmall) {
     margin-left: spacing(1);
     margin-right: spacing(1);
   }
+}
+
+* {
+  box-sizing: border-box;
 }

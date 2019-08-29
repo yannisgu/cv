@@ -1,0 +1,25 @@
+@import '../framework.scss';
+
+.project {
+  &__content {
+    display: flex;
+    @media all and (max-width: $breakpointSmall) {
+      flex-direction: column-reverse;
+    }
+  }
+
+
+  &__description {
+    width: 60%;
+    margin-right: spacing(3);
+
+    @media all and (max-width: $breakpointSmall) {
+      width: initial;
+      margin-right: initial;
+    }
+  }
+  
+  &__image {
+    flex: 1;
+  }
+}

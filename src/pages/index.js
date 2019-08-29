@@ -33,8 +33,8 @@ const sections = [
             <tr>
               <td>2010 - 2014</td>
               <td>
-                Apprenticeship Informatics, Federal Diploma of Vocational Education
-                and Training
+                Apprenticeship Informatics, Federal Diploma of Vocational
+                Education and Training
               </td>
             </tr>
           </tbody>
@@ -60,7 +60,7 @@ const sections = [
             </tr>
             <tr>
               <td>English</td>
-              <td>Very good knowlege and professional experience (~ C1)</td>
+              <td>Very good knowledge and professional experience (~ C1)</td>
             </tr>
           </tbody>
         </table>
@@ -78,23 +78,23 @@ const sections = [
             </tr>
             <tr>
               <td>TeamCity, Octopus Deploy</td>
-              <td>Very Good knowlege</td>
+              <td>Very good knowledge</td>
             </tr>
             <tr>
               <td>JavaScript</td>
-              <td>Very good knowlege</td>
+              <td>Very good knowledge</td>
             </tr>
             <tr>
               <td>React</td>
-              <td>Very good knowlege</td>
+              <td>Very good knowledge</td>
             </tr>
             <tr>
               <td>CSS</td>
-              <td>Good knowlege</td>
+              <td>Good knowledge</td>
             </tr>
             <tr>
               <td>HTMl standards</td>
-              <td>Good knowlege</td>
+              <td>Good knowledge</td>
             </tr>
             <tr>
               <td>Angular</td>
@@ -102,15 +102,15 @@ const sections = [
             </tr>
             <tr>
               <td>Computer networks</td>
-              <td>Good knowlege</td>
+              <td>Good knowledge</td>
             </tr>
             <tr>
               <td>Server administration</td>
-              <td>Good knowlege</td>
+              <td>Good knowledge</td>
             </tr>
             <tr>
               <td>Accessibility</td>
-              <td>Basic knowlege</td>
+              <td>Basic knowledge</td>
             </tr>
           </tbody>
         </table>
@@ -134,7 +134,15 @@ const sections = [
     title: "Interests & involvements",
     id: "interests",
     content: (
-      <> todo: add interests
+      <>
+        <h3>Interests</h3>
+        <ul>
+          <li>Endurance sport like orienteering, running and biking</li>
+          <li>Hiking & skiing</li>
+          <li>Timekeeping and website development</li>
+          <li>Technology and development practices</li>
+        </ul>
+        <h3>Involvements</h3>
         <ul>
           <li>
             Member of organisation comitee of the running race "La Tzampata"
