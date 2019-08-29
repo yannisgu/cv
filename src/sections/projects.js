@@ -1,6 +1,7 @@
 import React from "react"
 import Project from "../components/project"
 import { useStaticQuery, graphql } from "gatsby"
+import "./projects.scss"
 
 const Projects = () => {
   const data = useStaticQuery(graphql`
@@ -35,7 +36,7 @@ const Projects = () => {
   `)
 
   return (
-    <>
+    <div class="projects">
       <Project
         title="Optimierung Post Portal"
         link="https://www.post.ch"
@@ -126,7 +127,7 @@ const Projects = () => {
         implemeneted the analysis part and was responsible for the
         infrastructure. I also reviewed the code of my co-developer.
       </Project>
-    </>
+    </div>
   )
 }
 

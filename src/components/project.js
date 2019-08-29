@@ -2,6 +2,7 @@ import React from "react"
 import Img from "gatsby-image"
 import "./project.scss"
 import { breakpointSmall } from "../constants"
+import Button from "./button"
 
 const Project = ({
   title,
@@ -20,26 +21,28 @@ const Project = ({
   return (
     <div className="project">
       <h3>{title}</h3>
-      <div className="project__content">
-        <div className="project__description">
-          <div class="project__timeframe">{timeframe}</div>
-          {children}
-          <div class="project__attribute">
-            <span class="project__attribute-title">Technologies: </span>
-            {technologies}
-          </div>
-          <div class="project__attribute">
-            <span class="project__attribute-title">Employer: </span>
-            {employer}
-          </div>
-          <a href={link}>{link}</a>
+      {image && (
+        <div className="project__image">
+          <Img fluid={imageWithSizes} />
         </div>
-        {image && (
-          <div className="project__image">
-            <Img fluid={imageWithSizes} />
-          </div>
-        )}
+      )}
+      <div className="project__description">
+        <div className="project__timeframe">{timeframe}</div>
+        <div className="project__content">{children}</div>
+        <div class="project__attribute">
+          <span class="project__attributeTitle">Technologies: </span>
+          {technologies}
+        </div>
+        <div class="project__attribute">
+          <span class="project__attributeTitle">Employer: </span>
+          {employer}
+        </div>
       </div>
+      {link && (
+        <div className="project__button">
+          <Button href={link}>Discover project</Button>
+        </div>
+      )}
     </div>
   )
 }

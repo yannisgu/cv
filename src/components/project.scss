@@ -1,25 +1,47 @@
 @import '../framework.scss';
 
 .project {
-  &__content {
-    display: flex;
-    @media all and (max-width: $breakpointSmall) {
-      flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    padding-top: 66%;
+    position: relative;
+    overflow: hidden;
+
+    .gatsby-image-wrapper {
+      position: absolute !important;
+      height: fit-content;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
     }
   }
-
 
   &__description {
-    width: 60%;
-    margin-right: spacing(3);
-
-    @media all and (max-width: $breakpointSmall) {
-      width: initial;
-      margin-right: initial;
-    }
-  }
-  
-  &__image {
     flex: 1;
+  }
+
+  &__timeframe {
+    font-weight: 700;
+    margin-top: spacing(-1);
+  }
+
+  &__content {
+    margin-top: spacing(0);
+    margin-bottom: spacing(0);
+  }
+
+  &__attributeTitle {
+    font-weight: 700; 
+  }
+
+  &__button {
+    margin-top: spacing(0);
+
+    @media print {
+      display: none;
+    }
   }
 }
