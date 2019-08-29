@@ -3,11 +3,16 @@
 .project {
   display: flex;
   flex-direction: column;
+  page-break-inside: avoid;
 
   &__image {
     padding-top: 66%;
     position: relative;
     overflow: hidden;
+
+    @media print {
+      display: none;
+    }
 
     .gatsby-image-wrapper {
       position: absolute !important;

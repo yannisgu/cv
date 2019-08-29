@@ -17,6 +17,7 @@ const sections = [
     title: "Work History",
     id: "workHistory",
     content: <Workplaces />,
+    breakBefore: true,
   },
   {
     title: "Qualifications",
@@ -43,6 +44,7 @@ const sections = [
         </table>
       </>
     ),
+    breakBefore: true,
   },
   {
     title: "Skills",
@@ -207,7 +209,12 @@ const IndexPage = () => {
         </div>
       </div>
       {sections.map(_ => (
-        <div className="section" id={_.id} key={_.id}>
+        <div
+          className="section"
+          id={_.id}
+          key={_.id}
+          style={_.breakBefore ? { pageBreakBefore: "always" } : {}}
+        >
           <h2>{_.title}</h2>
           {_.content}
         </div>

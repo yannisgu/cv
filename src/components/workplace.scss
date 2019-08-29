@@ -2,12 +2,18 @@
 
 .workplace {
   display: flex;
+  page-break-inside: avoid;
+
   &__illustration {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
     width: spacing(2);
     margin-right: spacing(-3);
+
+    @media print {
+      display: none;
+    }
   }
 
   &__line {
