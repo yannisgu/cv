@@ -12,24 +12,15 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./layout.scss"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <div class="mainContent">
+      <div className="mainContent">
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>, Code can be found on{" "}
+          <a href="https://github.com/yannisgu/cv">github.com/yannisgu/cv</a>
         </footer>
       </div>
     </>

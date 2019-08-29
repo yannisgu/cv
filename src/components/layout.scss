@@ -1,4 +1,4 @@
-@import '../framework.scss';
+@import "../framework.scss";
 
 html {
   font-family: sans-serif;
@@ -12,7 +12,8 @@ body {
 }
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .mainContent {
@@ -28,4 +29,47 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.header {
+  display: flex;
+  > :nth-child(1) {
+    flex: 2;
+  }
+  > :nth-child(2) {
+    flex: 1;
+  }
+
+  @media all and (max-width: $breakpointSmall) {
+    flex-direction: column;
+  }
+}
+
+.two-columns-layout {
+  columns: 2 $breakpointSmall;
+
+  > * {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}
+
+footer {
+  margin-top: spacing(3);
+}
+
+a {
+  color: #1a126b;
+  :active {
+    color: #1a126b;
+  }
+
+  &:hover {
+    color: $primaryColor;
+  }
 }

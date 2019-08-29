@@ -29,12 +29,12 @@ const Project = ({
       <div className="project__description">
         <div className="project__timeframe">{timeframe}</div>
         <div className="project__content">{children}</div>
-        <div class="project__attribute">
-          <span class="project__attributeTitle">Technologies: </span>
+        <div className="project__attribute">
+          <span className="project__attributeTitle">Technologies: </span>
           {technologies}
         </div>
-        <div class="project__attribute">
-          <span class="project__attributeTitle">Employer: </span>
+        <div className="project__attribute">
+          <span className="project__attributeTitle">Employer: </span>
           {employer}
         </div>
       </div>

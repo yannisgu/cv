@@ -36,7 +36,7 @@ const Projects = () => {
   `)
 
   return (
-    <div class="projects">
+    <div className="projects">
       <Project
         title="Optimierung Post Portal"
         link="https://www.post.ch"
