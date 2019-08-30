@@ -14,9 +14,9 @@ const Workplace = ({ timeframe, title, company, children }) => {
         <div className="workplace__timeframe">{timeframe}</div>
         <div className="workplace__description">
           <h3 className="workplace__title">
-            <span className="workplace_title">{title}</span>
+            <span className="workplace__title">{title}</span>
             <br />
-            <span className="workplace_company">{company}</span>
+            <span className="workplace__company">{company}</span>
           </h3>
           {children}
         </div>

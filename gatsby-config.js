@@ -21,8 +21,8 @@ module.exports = {
         name: `yannis-guedel-cv`,
         short_name: `ygcv`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#363d7a`,
+        theme_color: `#363d7a`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },

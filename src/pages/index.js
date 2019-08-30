@@ -23,26 +23,24 @@ const sections = [
     title: "Qualifications",
     id: "qualifications",
     content: (
-      <>
-        <table>
-          <tbody>
-            <tr>
-              <td>2016 - present</td>
-              <td>
-                Bachelor in applied science, Informatics, Fernfachhochschule
-                Schweiz
-              </td>
-            </tr>
-            <tr>
-              <td>2010 - 2014</td>
-              <td>
-                Apprenticeship Informatics, Federal Diploma of Vocational
-                Education and Training
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </>
+      <table className="marginTop">
+        <tbody>
+          <tr>
+            <td>2016 - present</td>
+            <td>
+              Bachelor in applied science, Informatics, Fernfachhochschule
+              Schweiz
+            </td>
+          </tr>
+          <tr>
+            <td>2010 - 2014</td>
+            <td>
+              Apprenticeship Informatics, Federal Diploma of Vocational
+              Education and Training
+            </td>
+          </tr>
+        </tbody>
+      </table>
     ),
     breakBefore: true,
   },
@@ -50,7 +48,7 @@ const sections = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="two-columns-layout">
+      <div className="two-columns-layout marginTop">
         <div>
           <h3>Languages</h3>
           <table>
@@ -141,13 +139,14 @@ const sections = [
     title: "Interests & involvements",
     id: "interests",
     content: (
-      <div className="two-columns-layout">
+      <div className="two-columns-layout marginTop">
         <div>
           <h3>Interests</h3>
           <ul>
             <li>Endurance sports like orienteering, running and biking</li>
             <li>Hiking & skiing</li>
-            <li>Timekeeping and website development</li>
+            <li>Timekeeping</li>
+            <li>Website development</li>
             <li>Technology and development practices</li>
           </ul>
         </div>
@@ -155,7 +154,8 @@ const sections = [
           <h3>Involvements</h3>
           <ul>
             <li>
-              Member of organisation comitee of stairs-running race "La Tzampata"
+              Member of organisation comitee of stairs-running race "La
+              Tzampata"
             </li>
             <li>Member of comitee of orienteering club "OLG Murten"</li>
             <li>Coach of regional squad in orienteering "Cadre Romand"</li>
@@ -192,8 +192,8 @@ const IndexPage = () => {
           <p>
             As a developer I always aim to make people's lifes easier. After
             having spent most of my work experience caring about backend of
-            websites, I now look forward to create the next generation of web UIs
-            enjoyable to use, fast and accessible.
+            websites, I now look forward to create the next generation of web
+            UIs enjoyable to use, fast and accessible.
           </p>
 
           <ul className="tableOfContents">

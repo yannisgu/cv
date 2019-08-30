@@ -45,11 +45,15 @@
     margin-top: 0.4rem;
 
     ul {
-      padding: spacing(0);
+      padding: 0 spacing(0);
     }
   }
 
   &__title {
     margin-top: 0;
+  }
+
+  &__company {
+    font-weight: normal;
   }
 }

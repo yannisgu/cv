@@ -46,14 +46,14 @@ const Projects = () => {
         image={data.postOpp.childImageSharp.fluid}
       >
         As technical responsible I was in lead of a project with ca. 10
-        developers (frontend and backend). The goal of the project was implementing a redesign of main
-        portal of Swiss Post. My main responsibilities were: specification of
-        requirements, management and contact with stakeholders, sprint
-        planning, leading overall architecture process, as well as reviewing
-        the code. The Portal is a main information source for clients of Swiss
-        Post, as it covers a vast portfolio of services the Swiss Post offers.
-        The Portal also provides navigation script for all online applications
-        of Swiss Post.
+        developers (frontend and backend). The goal of the project was
+        implementing a redesign of main portal of Swiss Post. My main
+        responsibilities were: specification of requirements, management and
+        contact with stakeholders, sprint planning, leading overall architecture
+        process, as well as reviewing the code. The Portal is a main information
+        source for clients of Swiss Post, as it covers a vast portfolio of
+        services the Swiss Post offers. The Portal also provides navigation
+        script for all online applications of Swiss Post.
       </Project>
       <Project
         title="Post Microsites"
@@ -67,12 +67,11 @@ const Projects = () => {
         it's developer since the beginning. The framework allows Swiss Post to
         launch new small sites in no time, without losing the flexibility to
         give an own character to every so called "microsite". From 2017 till
-        2018 I was technically responsible for the product, leading a team
-        of 3-5 developers.
+        2018 I was technically responsible for the product, leading a team of
+        3-5 developers.
       </Project>
       <Project
         title="Release Management Post Portal"
-        link="https://www.post.ch"
         timeframe="2016-2018"
         technologies="Sitecore (.NET, C#), Estatico (Handlebars, SCSS, JavaScript)"
         employer="Unic AG"
@@ -93,11 +92,10 @@ const Projects = () => {
         employer="Self-Employed / ResultService GmbH"
         image={data.liveResults.childImageSharp.fluid}
       >
-        I desinged and
-        developed new frontend for orienteering Live-Results website. The
-        Live-Results have since then been used at the Junior World Championships
-        and the European Championships, as well as couple other international
-        orienteering races.
+        I desinged and developed new frontend for orienteering Live-Results
+        website. The Live-Results have since then been used at the Junior World
+        Championships and the European Championships, as well as couple other
+        international orienteering races.
       </Project>
       <Project
         title="TV-Graphics for Split-times"
@@ -107,8 +105,8 @@ const Projects = () => {
         image={data.graphics.childImageSharp.fluid}
       >
         For a small TV production company Livemotion I developed a system to
-        show split-times graphics in real-time. Graphics operator is able to control which graphic should
-        be shown in real-time via a controller UI.
+        show split-times graphics in real-time. Graphics operator is able to
+        control which graphic should be shown in real-time via a controller UI.
       </Project>
       <Project
         title="Relaunch T-Pak"
