@@ -54,7 +54,7 @@ const sections = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="two-columns-layout marginTop">
+      <div className="two-columns-layout">
         <div>
           <h3>Languages</h3>
           <table>
@@ -149,7 +149,7 @@ const sections = [
     title: "Interests & involvements",
     id: "interests",
     content: (
-      <div className="two-columns-layout marginTop">
+      <div className="two-columns-layout">
         <div>
           <h3>Interests</h3>
           <ul>
