@@ -24,6 +24,12 @@ const sections = [
     id: "qualifications",
     content: (
       <table className="marginTop">
+        <thead>
+          <tr>
+            <th>Timeframe</th>
+            <th>Qualification</th>
+          </tr>
+        </thead>
         <tbody>
           <tr>
             <td>2016 - present</td>
@@ -54,15 +60,15 @@ const sections = [
           <table>
             <tbody>
               <tr>
-                <td>German</td>
+                <th>German</th>
                 <td>Mother tongue</td>
               </tr>
               <tr>
-                <td>French</td>
+                <th>French</th>
                 <td>Oral: Mother tongue, written: good knowledge</td>
               </tr>
               <tr>
-                <td>English</td>
+                <th>English</th>
                 <td>Very good knowledge and professional experience (~ C1)</td>
               </tr>
             </tbody>
@@ -85,47 +91,51 @@ const sections = [
           <table>
             <tbody>
               <tr>
-                <td>C#, .NET Framework</td>
+                <th>C#, .NET Framework</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <td>ASP.NET MVC</td>
+                <th>ASP.NET MVC</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <td>TeamCity, Octopus Deploy</td>
+                <th>TeamCity, Octopus Deploy</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <td>JavaScript</td>
+                <th>JavaScript</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <td>React</td>
+                <th>React</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <td>CSS</td>
+                <th>CSS</th>
                 <td>Good knowledge</td>
               </tr>
               <tr>
-                <td>HTML standard</td>
+                <th>HTML standard</th>
                 <td>Good knowledge</td>
               </tr>
               <tr>
-                <td>Angular</td>
+                <th>Angular</th>
                 <td>Good knowledge</td>
               </tr>
               <tr>
-                <td>Computer networks</td>
+                <th>Frontend build system</th>
                 <td>Good knowledge</td>
               </tr>
               <tr>
-                <td>Server administration</td>
+                <th>Computer networks</th>
                 <td>Good knowledge</td>
               </tr>
               <tr>
-                <td>Accessibility</td>
+                <th>Server administration</th>
+                <td>Good knowledge</td>
+              </tr>
+              <tr>
+                <th>Accessibility</th>
                 <td>Basic knowledge</td>
               </tr>
             </tbody>
@@ -186,7 +196,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="CV" />
-      <div class="header">
+      <div className="header">
         <div>
           <h1>Yannis Güdel, Developer</h1>
           <p>
@@ -204,28 +214,33 @@ const IndexPage = () => {
             ))}
           </ul>
           <table>
-            <tr>
-              <td>Mail</td>
-              <td>
-                <a href="mailto:me@yannisguedel.ch">me@yannisguedel.ch</a>
-              </td>
-            </tr>
-            <tr>
-              <td>Address</td>
-              <td>
-                Muristrasse 88
-                <br />
-                3007 Bern
-              </td>
-            </tr>
-            <tr>
-              <td>Birthdate</td>
-              <td>23.12.94</td>
-            </tr>
+            <tbody>
+              <tr>
+                <th>Mail</th>
+                <td>
+                  <a href="mailto:me@yannisguedel.ch">me@yannisguedel.ch</a>
+                </td>
+              </tr>
+              <tr>
+                <th>Address</th>
+                <td>
+                  Muristrasse 88
+                  <br />
+                  3007 Bern
+                </td>
+              </tr>
+              <tr>
+                <th>Birthdate</th>
+                <td>23.12.94</td>
+              </tr>
+            </tbody>
           </table>
         </div>
         <div>
-          <Img fluid={data.yannis.childImageSharp.fluid} />
+          <Img
+            fluid={data.yannis.childImageSharp.fluid}
+            alt="Photo of Yannis Güdel"
+          />
         </div>
       </div>
       {sections.map(_ => (

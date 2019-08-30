@@ -23,7 +23,7 @@ const Project = ({
       <h3>{title}</h3>
       {image && (
         <div className="project__image">
-          <Img fluid={imageWithSizes} />
+          <Img fluid={imageWithSizes} alt={`Screenshot of ${title}`} />
         </div>
       )}
       <div className="project__description">

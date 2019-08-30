@@ -16,6 +16,53 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: spacing(3);
+}
+
+footer {
+  margin-top: spacing(2);
+  margin-bottom: spacing(2);
+
+  @media print {
+    display: none;
+  }
+}
+
+a {
+  color: #1a126b;
+  :active {
+    color: #1a126b;
+  }
+
+  &:hover {
+    color: $primaryColor;
+  }
+}
+
+table {
+  border-spacing: spacing(-1);
+  margin-left: - spacing(-1);
+  margin-right: - spacing(-1);
+
+  td {
+    vertical-align: top;
+  }
+  th {
+    text-align: left;
+  }
+}
+
+
+ul {
+  padding: 0 spacing(0);
+}
+
 .mainContent {
   margin-left: spacing(3);
   margin-right: spacing(3);
@@ -35,14 +82,6 @@ body {
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
-h2 {
-  margin-bottom: 0;
-  margin-top: spacing(3);
-}
 
 .header {
   display: flex;
@@ -77,37 +116,5 @@ h2 {
 
   h3 {
     margin-top: 0;
-  }
-}
-
-footer {
-  margin-top: spacing(2);
-  margin-bottom: spacing(2);
-
-  @media print {
-    display: none;
-  }
-}
-
-a {
-  color: #1a126b;
-  :active {
-    color: #1a126b;
-  }
-
-  &:hover {
-    color: $primaryColor;
-  }
-}
-
-table {
-  border-spacing: spacing(-1);
-
-  td {
-    vertical-align: top;
-  }
-
-  tr > :nth-child(1) {
-    font-weight: bold;
   }
 }
