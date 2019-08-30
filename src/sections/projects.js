@@ -52,8 +52,8 @@ const Projects = () => {
         contact with stakeholders, sprint planning, leading overall architecture
         process, as well as reviewing the code. The Portal is a main information
         source for clients of Swiss Post, as it covers a vast portfolio of
-        services the Swiss Post offers. The Portal also provides navigation
-        script for all online applications of Swiss Post.
+        services the Swiss Post offers. It also provides navigation script for
+        all online applications of Swiss Post.
       </Project>
       <Project
         title="Post Microsites"
