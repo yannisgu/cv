@@ -99,3 +99,15 @@ a {
     color: $primaryColor;
   }
 }
+
+table {
+  border-spacing: spacing(-1);
+
+  td {
+    vertical-align: top;
+  }
+
+  tr > :nth-child(1) {
+    font-weight: bold;
+  }
+}

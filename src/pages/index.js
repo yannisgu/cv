@@ -109,7 +109,7 @@ const sections = [
                 <td>Good knowledge</td>
               </tr>
               <tr>
-                <td>HTMl standards</td>
+                <td>HTML standard</td>
                 <td>Good knowledge</td>
               </tr>
               <tr>
@@ -203,6 +203,26 @@ const IndexPage = () => {
               </li>
             ))}
           </ul>
+          <table>
+            <tr>
+              <td>Mail</td>
+              <td>
+                <a href="mailto:me@yannisguedel.ch">me@yannisguedel.ch</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Address</td>
+              <td>
+                Muristrasse 88
+                <br />
+                3007 Bern
+              </td>
+            </tr>
+            <tr>
+              <td>Birthdate</td>
+              <td>23.12.94</td>
+            </tr>
+          </table>
         </div>
         <div>
           <Img fluid={data.yannis.childImageSharp.fluid} />
