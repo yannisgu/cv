@@ -47,8 +47,8 @@ a {
 
 table {
   border-spacing: spacing(-1);
-  margin-left: - spacing(-1);
-  margin-right: - spacing(-1);
+  margin-left: -spacing(-1);
+  margin-right: -spacing(-1);
 
   td {
     vertical-align: top;
@@ -57,7 +57,6 @@ table {
     text-align: left;
   }
 }
-
 
 ul {
   padding: 0 spacing(0);
@@ -73,7 +72,7 @@ ul {
     margin-right: spacing(1);
   }
 
-  @media all and (min-width: $maxWidth) {
+  @media all and (min-width: calc($maxWidth +  2 * spacing(3))) {
     margin: auto;
   }
 
@@ -81,7 +80,6 @@ ul {
     margin: 0;
   }
 }
-
 
 .header {
   display: flex;
