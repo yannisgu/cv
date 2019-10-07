@@ -111,6 +111,10 @@ const sections = [
                 <td>Very good knowledge</td>
               </tr>
               <tr>
+                <th>Java</th>
+                <td>Good knowledge</td>
+              </tr>
+              <tr>
                 <th>CSS</th>
                 <td>Good knowledge</td>
               </tr>
