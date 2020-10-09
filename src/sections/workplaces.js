@@ -5,6 +5,34 @@ const Workplaces = () => {
   return (
     <div className="marginTop">
       <Workplace
+        title="Software Developer (70%)"
+        company="Nothing AG"
+        timeframe="12.2019 - Present"
+      >
+        <ul>
+          <li>
+            Leading the future strategy of our development and digital infrastructure circles
+          </li>
+          <li>Development of Frontend applications</li>
+          <li>
+            Support of business acquisition and project coordination with technical inputs and estimations
+          </li>
+        </ul>
+      </Workplace>
+    
+      <Workplace
+        title="Co-Owener (Part-time)"
+        company="Livemotion GmbH"
+        timeframe="2017 - Presnet"
+      >
+        <ul>
+          <li>
+            Building a live video production business
+          </li>
+          <li>Writing applications with the goal to support live video productions with data</li>
+        </ul>
+      </Workplace>
+      <Workplace
         title="Application Engineer (60% - 80%)"
         company="Unic AG"
         timeframe="04.2016 - 08.2019"
