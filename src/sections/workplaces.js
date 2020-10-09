@@ -21,9 +21,9 @@ const Workplaces = () => {
       </Workplace>
     
       <Workplace
-        title="Co-Owener (Part-time)"
+        title="Co-Owner (Part-time)"
         company="Livemotion GmbH"
-        timeframe="2017 - Presnet"
+        timeframe="2017 - Present"
       >
         <ul>
           <li>
