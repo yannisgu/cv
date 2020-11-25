@@ -15,7 +15,14 @@ const Projects = () => {
 
     query {
       
-      bio: file(relativePath: { eq: "biopartner.png" }) {
+      reinvent: file(relativePath: { eq: "reinvent.png" }) {
+        ...ImagePart
+      }
+
+      isceco: file(relativePath: { eq: "isceco.png" }) {
+        ...ImagePart
+      }
+      bip: file(relativePath: { eq: "biopartner.png" }) {
         ...ImagePart
       }
       postWepp: file(relativePath: { eq: "post-wepp.png" }) {
@@ -43,8 +50,21 @@ const Projects = () => {
     <div className="projects">
     
       <Project
+        title="Reinventing Organizations Wiki"
+        link="https://reinventingorganizations-wiki.netlify.app/"
+        timeframe="2020"
+        technologies="HTML, CSS, JavaScript, Netlify CMS, Eleventy"
+        employer="Nothing AG"
+        image={data.reinvent.childImageSharp.fluid}
+      >
+        Developed a small website with Netlify CMS & Eleventy with content provided by the community
+        to showcase additional content to the book "Reinventing Organizations".
+      </Project>
+      <Project
         title="Bio Partner Online Shop"
         timeframe="2020"
+    
+        link="https://shop.biopartner.ch"
         technologies="HTML, CSS, JavaScript, Nuxt, Vue"
         employer="Nothing AG"
         image={data.bip.childImageSharp.fluid}
@@ -52,6 +72,16 @@ const Projects = () => {
         As a lead developer for the further development of the Bio Partner Online Shop
         I was responsible to estimate, plan and develop new features for the application
         as well as fixing bugs.
+      </Project>
+    
+      <Project
+        title="ISCeco Widget Library"
+        timeframe="2020"
+        technologies="HTML, CSS, JavaScript, LitElement"
+        employer="Nothing AG"
+        image={data.isceco.childImageSharp.fluid}
+      >
+        Co-Developing a Widget Library for the IT organisation of the federal department for economical affairs, education and research.
       </Project>
       <Project
         title="Optimierung Post Portal"
