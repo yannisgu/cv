@@ -103,8 +103,17 @@ const sections = [
                 <td>Very good knowledge</td>
               </tr>
               <tr>
+                <th>Static file generators</th>
+                <td>Very good knowledge</td>
+              </tr>
+              <tr>
                 <th>Web Accessibility</th>
                 <td>Very good knowledge</td>
+              </tr>
+
+              <tr>
+                <th>UX Design, UX Research</th>
+                <td>Good knowledge</td>
               </tr>
               <tr>
                 <th>Angular, Svelte</th>
