@@ -14,6 +14,10 @@ const Projects = () => {
     }
 
     query {
+      
+      bio: file(relativePath: { eq: "biopartner.png" }) {
+        ...ImagePart
+      }
       postWepp: file(relativePath: { eq: "post-wepp.png" }) {
         ...ImagePart
       }
@@ -37,6 +41,18 @@ const Projects = () => {
 
   return (
     <div className="projects">
+    
+      <Project
+        title="Bio Partner Online Shop"
+        timeframe="2020"
+        technologies="HTML, CSS, JavaScript, Nuxt, Vue"
+        employer="Nothing AG"
+        image={data.bip.childImageSharp.fluid}
+      >
+        As a lead developer for the further development of the Bio Partner Online Shop
+        I was responsible to estimate, plan and develop new features for the application
+        as well as fixing bugs.
+      </Project>
       <Project
         title="Optimierung Post Portal"
         link="https://www.post.ch"
