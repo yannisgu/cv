@@ -87,43 +87,27 @@ const sections = [
           </ul>
         </div>
         <div>
-          <h3>Technologies</h3>
+          <h3></h3>
           <table>
             <tbody>
               <tr>
-                <th>C#, .NET Framework</th>
+                <th>HTML, CSS, JavaScript</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <th>ASP.NET MVC</th>
+                <th>React, Vue</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <th>TeamCity, Octopus Deploy</th>
+                <th>CMS (flat file and database based)</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <th>JavaScript</th>
+                <th>Web Accessibility</th>
                 <td>Very good knowledge</td>
               </tr>
               <tr>
-                <th>React</th>
-                <td>Very good knowledge</td>
-              </tr>
-              <tr>
-                <th>Java</th>
-                <td>Good knowledge</td>
-              </tr>
-              <tr>
-                <th>CSS</th>
-                <td>Good knowledge</td>
-              </tr>
-              <tr>
-                <th>HTML standard</th>
-                <td>Good knowledge</td>
-              </tr>
-              <tr>
-                <th>Angular</th>
+                <th>Angular, Svelte</th>
                 <td>Good knowledge</td>
               </tr>
               <tr>
@@ -131,16 +115,8 @@ const sections = [
                 <td>Good knowledge</td>
               </tr>
               <tr>
-                <th>Computer networks</th>
+                <th>Unit testing, E2E testing</th>
                 <td>Good knowledge</td>
-              </tr>
-              <tr>
-                <th>Server administration</th>
-                <td>Good knowledge</td>
-              </tr>
-              <tr>
-                <th>Accessibility</th>
-                <td>Basic knowledge</td>
               </tr>
             </tbody>
           </table>
