@@ -188,11 +188,10 @@ const IndexPage = () => {
       <div className="header">
         <div>
           <h1>Yannis Güdel, Developer</h1>
-          <p>
-            As a developer I always aim to make people's lifes easier. After
-            having spent most of my work experience caring about backend of
-            websites, I now look forward to create the next generation of web
-            UIs enjoyable to use, fast and accessible.
+          <p> 
+            As a developer I always aim to make people's lifes easier. 
+            I want to build applications which generate as much value as possible,
+            both for the user as well as for the paying customer.
           </p>
 
           <ul className="tableOfContents">
