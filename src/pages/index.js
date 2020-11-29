@@ -98,6 +98,11 @@ const sections = [
                 <th>React, Vue</th>
                 <td>Very good knowledge</td>
               </tr>
+    
+              <tr>
+                <th>Serverside Rendering, e.g. with Nuxt</th>
+                <td>Very good knowledge</td>
+              </tr>
               <tr>
                 <th>CMS (flat file and database based)</th>
                 <td>Very good knowledge</td>
@@ -108,6 +113,15 @@ const sections = [
               </tr>
               <tr>
                 <th>Web Accessibility</th>
+                <td>Very good knowledge</td>
+              </tr>
+    
+              <tr>
+                <th>.NET, C#</th>
+                <td>Very good knowledge</td>
+              </tr>
+              <tr>
+                <th>Relational Databases</th>
                 <td>Very good knowledge</td>
               </tr>
 
