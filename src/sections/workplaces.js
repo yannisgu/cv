@@ -55,7 +55,7 @@ const Workplaces = () => {
       <Workplace
         title="Software Developer (0% - 20%)"
         company="Swiss Orienteering"
-        timeframe="2016 - present"
+        timeframe="2016 - 2020"
       >
         <ul>
           <li>Development of a training diary platform called T-Pak</li>
